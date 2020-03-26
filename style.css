@@ -53,3 +53,38 @@ li:last-child {
 	font-size: large;
 	text-align: center;
   }
+  #div1{
+	
+    width: 40%;
+    height: 450px;
+    background-image: url("p2.jpg");
+	background-size: 100% 100% ;
+	animation:anim1 ease-in-out 50s infinite;
+	margin: auto;
+	border: 10px solid rgb(32, 32, 32);
+    
+  }
+  @keyframes anim1{
+    0%{
+      background-image: url("p2.jpg");
+    }
+    25%{
+      background-image: url("p1.jpg");
+    }
+    50%{
+      background-image: url("p3.PNG");
+    }
+    75%{
+      background-image: url("p4.PNG");
+    }
+    100%{
+      background-image: url("p2.jpg");
+	}
+}
+ 
+ .aboutme p {
+	margin: 6px;
+	padding: 6px;
+	background-color: whitesmoke;
+	font-weight: normal;
+ }
