@@ -1,5 +1,5 @@
 body {
-	background-color: lightblue;
+	background-color: white;
 	background-image: url("symphony.png");
   }
 #menu
@@ -72,10 +72,10 @@ li:last-child {
       background-image: url("p1.jpg");
     }
     50%{
-      background-image: url("p3.PNG");
+      background-image: url("p3.JPEG");
     }
     75%{
-      background-image: url("p4.PNG");
+      background-image: url("p4.JPEG");
     }
     100%{
       background-image: url("p2.jpg");
