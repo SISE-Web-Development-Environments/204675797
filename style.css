@@ -57,28 +57,28 @@ li:last-child {
 	
     width: 40%;
     height: 450px;
-    background-image: url("p2.jpg");
+    background-image: url("images/p1.JPG");
 	background-size: 100% 100% ;
-	animation:anim1 ease-in-out 50s infinite;
+	animation: anim1 ease-in-out 50s infinite;
 	margin: auto;
 	border: 10px solid rgb(32, 32, 32);
     
   }
   @keyframes anim1{
     0%{
-      background-image: url("p2.jpg");
+      background-image: url("images/p1.JPG");
     }
     25%{
-      background-image: url("p1.jpg");
+      background-image: url("images/p2.JPG");
     }
     50%{
-      background-image: url("p3.JPEG");
+      background-image: url("images/p3.jpeg");
     }
     75%{
-      background-image: url("p4.JPEG");
+      background-image: url("images/p4.jpeg");
     }
     100%{
-      background-image: url("p2.jpg");
+      background-image: url("images/p1.JPG");
 	}
 }
  
