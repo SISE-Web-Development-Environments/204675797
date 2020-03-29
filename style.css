@@ -16,8 +16,6 @@ body {
 	float: left;
 	border-right: 1px solid #bbb;
 	list-style-type: none;
-/*	border:1px solid white;
-	background-color: white;*/
 }
 
   
@@ -49,14 +47,15 @@ li:last-child {
   }
   #div1{
 	
-    width: 40%;
+    width: 50%;
     height: 450px;
     background-image: url("images/p1.JPG");
 	background-size: 100% 100% ;
-	animation: anim1 ease-in-out 35s infinite;
+	animation: anim1 ease-in-out 40s infinite;
 	margin: auto;
-	border: 2px solid rgb(32, 32, 32);
-	border-radius: 10%;
+	border:2px solid white;
+    border-radius:10px;
+    box-shadow:0 0 3px #AAA;
     
   }
   @keyframes anim1{
