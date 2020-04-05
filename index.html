@@ -1,50 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+  <title>SHIR BEN DOR</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" type="text/css" href="style.css" />
 
 </head>
 <body>
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
+<li><a href="#home">HOME</a></li>
+<li><a href="#about">ABOUT</a></li>
+<li><a href="#photos">PHOTOS</a></li>
+<li><a href="#playlist">PLAYLIST</a></li>
+<li><a href="#like">LIKE</a></li>
+<li><a href="#qrcoder">QR</a></li>
 <li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<li><a href="#contact">CONTACT</a></li>
 </div>
      
-<section class="section1">
+<div class="header" id="home">
   <br/>
-  <br/>
-  <br/>
-  <img src="logo.png"/>
-  <br/>
-  <br/>
-  </section1>
+  <h1>Dream it. </h1>
+  <h2>Wish it.</h2>
+  <h3>Do it.</h3>
+</div>
+  
+      
+
+ 
+
 <section id="about" class="section">
 <br/>
+<span style="font-size:x-large;">ABOUT ME</span>
 <br/>
-<img src="1.png"/>
-<div class="aboutme" style="
-border-radius:10px;
- width: 70%;	margin: auto;">
- <p >
-  My name Is Shir Ben Dor, I'm 26 years old. Originally from Ashkelon and now lives in Beer Sheva with my husband. 
-  <br/>
-  I am a third year student in the Information Systems Engeneering department in Ben Gurion University of the negev. 
-  <br/>
-  In my spare time, I love to do sports and go hiking in nature, cooking and spending time with family and friends. 
-  <br/>
-  So far I have been very impressed with the AI course, I think the field is very interesting and will have a great impact on the future. 
-  <br/>
-  I really like to design things, so I'm very attached to this course. In high school I learned a little HTML language so the assignment is fine for me. 
-  <br/>
-  My expectation from this course are very high and I want to learn many interesting things about the WEB world.
-
- </p>
+<br/>
+<div class="aboutme" >
+<p><b>Hello</b>, my name Is Shir Ben Dor, I'm 26 years old. Originally from Ashkelon and now lives in Beer Sheva with my husband.
+  I am a third year student in the Information Systems Engeneering department in Ben Gurion University of the negev.
+  In my spare time, I love to do sports and go hiking in nature, cooking and spending time with family and friends.
+  So far I have been very impressed with the AI course, I think the field is very interesting and will have a great impact on the future.
+  I really like to design things, so I'm very attached to this course. In high school I learned a little HTML language so the assignment is fine for me.
+  My expectation from this course are very high and I want to learn many interesting things about the WEB world.</p>
 </div>
 <br/>
 <br/>
@@ -53,23 +49,52 @@ border-radius:10px;
 <section id="photos" class="section">
 <br/>
 <br/>
-<img src="2.png"/><br/>
-<div id="div1"  > 
+<span style="font-size:x-large;">PHOTOS</span>
+<br/>
+<br/>
+<span style="font-size:medium;;">Just stop for a minute and... <b>smile (:</b></span>
+<br/>
+<span style="font-size:small;;">Click on the images below:</span>
+<br/>
+<br/>
+<div class="row">
+  <div class="column">
+    <img src="images/p1.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/p2.jpg" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/p3.JPG" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/p4.jpg"  style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:50%;border:2px solid white;
+  border-radius:10px; box-shadow:0 0 3px #AAA;">
+  <div id="imgtext"></div>
 </div>
 <br/>
-<br/>
-<br/>
-<br/>
+
 </section>
 
 <section id="playlist" class="section">
 <br/>
 <br/>
-<img src="3.png"/>
+<span style="font-size:x-large;">PLAYLIST</span>
+<br/>
 <br/>
 
+<span style="font-size:medium;;">" Music is what feelings sound like "</span>
+
+<br/>
+<br/>
 <iframe style="border:2px solid white;
-border-radius:10px; box-shadow:0 0 3px #AAA;"width="980" height="400" src="https://www.youtube.com/embed/videoseries?list=PLsaYGaNEUt-rTNczJ8dcAse9-OGDSNxjB" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+border-radius:10px; box-shadow:0 0 3px #AAA;"width=50% height="400" src="https://www.youtube.com/embed/videoseries?list=PLsaYGaNEUt-rTNczJ8dcAse9-OGDSNxjB" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
 <br/>
 <img src="tav.png" style="block-size: 50px;"/>
 <img src="tav.png" style="block-size: 50px;"/>
@@ -79,7 +104,11 @@ border-radius:10px; box-shadow:0 0 3px #AAA;"width="980" height="400" src="https
 <section id="like" class="section">
 <br/>
 <br/>
-<img src="4.png"/>
+<span style="font-size:x-large;">LIKE MY WEBSITE?</span>
+<br/>
+<br/>
+<span style="font-size:medium;;">Show me and press like</span>
+<br/>
 <br/>
 <br/>
 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fsise-web-development-environments.github.io%2F204675797%2F&width=129&layout=button&action=like&size=large&share=true&height=65&appId" width="129" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe><br/>
@@ -89,7 +118,7 @@ border-radius:10px; box-shadow:0 0 3px #AAA;"width="980" height="400" src="https
 <section id="qrcoder" class="section">
 <br/>
 <br/>
-<img src="5.png"/>
+<span style="font-size:x-large;">SCAN ME</span>
 <br/>
 <br/>
 <img  style="border:2px solid white;
@@ -100,7 +129,7 @@ border-radius:10px; box-shadow:0 0 3px #AAA;" src="QR.png"/><br/>
 <section id="spa" class="section">
 <br/>
 <br/>
-<img src="6.png"/>
+<span style="font-size:x-large;">QUESTIONS AND ANSWERS</span>
   <tr>
     <p style="font-weight: bold; font-size: x-large;" >1. Three main diffrences between web1, web2 and web3:</p>
 <table>
@@ -158,8 +187,13 @@ border-radius:10px; box-shadow:0 0 3px #AAA;" src="QR.png"/><br/>
 <section id="contact" class="section">
 <br/>
 <br/>
-<img src="7.png"/>
+<span style="font-size:x-large;">CONTACT</span>
 <br/>
+<br/>
+<span style="font-size:medium;;">Lets get in touch. Send me a message:</span>
+<br/>
+<br/>
+
 <form action="mailto:bendor.shir@gmail.com" method="post" id="commentform" class="comment-form">
   <p><input id="name" name="name" type="text" value="" placeholder="Name*" size="30" aria-required='true' /></p>
   <p><input id="email" name="email" type="text" value="" placeholder="Email*" size="30" aria-required='true' /></p>
@@ -206,5 +240,14 @@ $(function(){
               }  
     } 
 </script> 
+<script>
+  function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
+  </script>
 </body>
 </html>
