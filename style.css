@@ -45,6 +45,7 @@ li:last-child {
 	font-size: medium;
 	text-align: center;
   border-top: inset;
+  
   }
 
   .header{
@@ -55,17 +56,23 @@ background-color:whitesmoke;  }
 
 .column {
   float: left;
-  width: 23%;
-  padding: 10px;
+  width: 20%;
+  padding: 20px;
+  
+  
 }
 
 .column img {
   opacity: 0.8; 
   cursor: pointer; 
   border:2px solid white;
-border-radius:10px; box-shadow:0 0 3px #AAA;
-}
+border-radius:8px; box-shadow:0 0 3px #AAA;
 
+}
+.row{
+    width: 85%;
+	  margin: auto;
+}
 .column img:hover {
   opacity: 1;
 }
@@ -74,13 +81,11 @@ border-radius:10px; box-shadow:0 0 3px #AAA;
   content: "";
   display: table;
   clear: both;
-
 }
 
 .container {
   position: relative;
   display: none;
-  
 }
 
 
@@ -98,8 +103,9 @@ border-radius:10px; box-shadow:0 0 3px #AAA;
 	padding: 6px;
 	background-color: whitesmoke;
   border-radius:10px;
-  width: 80%;	
+  width: 70%;	
   margin: auto;
+  font-size: large;
 
  }
  
